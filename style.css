@@ -453,3 +453,211 @@ footer a {
   color: white;
 }
 /* ==================================================== */
+
+
+
+/* ==================================================== */
+/* ======================class.html======================= */
+/* ==================================================== */
+.hero {
+  background: url(../img/home3.png) no-repeat center / cover;
+  height: 100%;
+  width: 100%;
+  display: table;
+  position: relative;
+}
+
+.overlay:before {
+  content: "";
+  background-color: rgba(89, 89, 89, 0.5);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+.hero-content {
+  display: table-cell;
+  vertical-align: middle;
+  padding-top: 75px;
+}
+
+.hero-text {
+  max-width: 890px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+  text-align: center;
+}
+
+.hero-text h1 {
+  position: relative;
+  margin: 0;
+  color: #ffffff;
+}
+
+.hero-text p {
+  position: relative;
+  margin: 45px 0 30px;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.hero-text .btn {
+  position: relative;
+  background-color: transparent;
+}
+
+.hero-text .btn:hover {
+  background-color: #26272d;
+  color: #fff;
+}
+
+.hero .breadcrumb {
+  padding-top: 60px;
+  margin-bottom: 0;
+}
+
+.hero .breadcrumb:before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 50%;
+  bottom: 45px;
+  height: 12px;
+  width: 80px;
+  border-top: 5px solid #fff;
+  border-bottom: 3px solid #fff;
+  transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+}
+
+.subpage-hero {
+  height: 400px;
+}
+
+.subpage-hero.overlay:before {
+  background-color: rgba(38, 39, 45, 0.5);
+}
+
+.subpage-hero .hero-content,
+.subpage-hero .hero-content h1,
+.subpage-hero a {
+  color: #fff;
+}
+
+.subpage-hero a:hover {
+  color: #6fc754;
+}
+
+.portfolio-hero {
+  background: url(./src/image/hero-class.jpg) no-repeat center / cover;
+}
+
+
+
+
+.card {
+  background:#1C3879;
+  margin:10px 30px 10px 30px;
+  padding:30px;
+  color:#F9F5EB;
+  border-radius: 15px;
+}
+.card h1{
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.card p {
+  font-size: 24px;
+}
+.instruktur img{
+  overflow: hidden;
+  object-fit: cover;
+  width: 10rem;
+  height: 10rem;
+  border: 4px solid #607EAA;
+  border-radius: 999px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.profile-instruktur {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  margin: 15px;
+}
+.profile-instruktur p, .profile-instruktur h2 {
+  padding: 10px;
+}
+
+.feedback-user h3, .feedback-user p {
+  margin: 5px;
+}
+
+/* ==================================================== */
+/* ======================Button Class======================= */
+/* ==================================================== */
+.cssbuttons-io-button {
+  background: #1C3879;
+  color: white;
+  font-family: inherit;
+  padding: 0.35em;
+  padding-left: 1.2em;
+  font-size: 17px;
+  font-weight: 500;
+  border-radius: 0.9em;
+  border: none;
+  letter-spacing: 0.05em;
+  display: flex;
+  align-items: center;
+  box-shadow: inset 0 0 1.6em -0.6em #1C3879;
+  overflow: hidden;
+  position: relative;
+  height: 2.8em;
+  padding-right: 3.3em;
+ }
+ 
+ .cssbuttons-io-button .icon {
+  background: white;
+  margin-left: 1em;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.2em;
+  width: 2.2em;
+  border-radius: 0.7em;
+  box-shadow: 0.1em 0.1em 0.6em 0.2em #1C3879;
+  right: 0.3em;
+  transition: all 0.3s;
+ }
+ 
+ .cssbuttons-io-button:hover .icon {
+  width: calc(100% - 0.6em);
+ }
+ 
+ .cssbuttons-io-button .icon svg {
+  width: 1.1em;
+  transition: transform 0.3s;
+  color: #1C3879;
+ }
+ 
+ .cssbuttons-io-button:hover .icon svg {
+  transform: translateX(0.1em);
+ }
+ 
+ .cssbuttons-io-button:active .icon {
+  transform: scale(0.95);
+ }
+
+.button-class {
+  padding: 30px 30px 20px 30px;
+}
