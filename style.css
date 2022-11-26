@@ -248,11 +248,15 @@ button {
   border-radius: 5px;
   color: #FFFFFF;
 }
+
+.class-items button:hover {
+  background-color: #1C3879;
+}
 /* end of Daftar Kelas */
-   
-   
+
+
 /* About */
-   .card-client {
+.card-client {
   background: #1C3879;
   width: 13rem;
   padding-top: 25px;
@@ -730,4 +734,27 @@ footer a {
 
 .button-class {
   padding: 30px 30px 20px 30px;
+}
+
+/* Tampilan Tablet */
+
+@media screen and (max-width: 768px) {
+  .class-list {
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+  }
+
+  
+  #content article {
+    padding: 15px;
+    margin: 20px 40px;
+  }
+}
+
+
+/* Tampilan Mobile */
+@media screen and (max-width: 576px) {
+  .class-list {
+      grid-template-columns: auto auto;
+  }
 }
