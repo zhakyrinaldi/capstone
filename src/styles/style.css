@@ -661,3 +661,79 @@ footer a {
 .button-class {
   padding: 30px 30px 20px 30px;
 }
+
+/* Css daftar kelas */
+
+#content article {
+  background-color: #1C3879;
+  padding: 20px;
+  margin: 20px 50px;
+}
+
+h2.bold {
+  color: white;
+}
+
+.bold, button {
+  font-weight: bold;
+}
+
+.class-list {
+  display : grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 20px;
+  margin-top: 20px;
+}
+
+.class-items {
+  background-color: #FFFFFF;
+  border-radius: 5px;
+  padding: 20px 20px 10px;
+}
+
+.class-items .teacher {
+  margin: 10px 0;
+}
+
+.class-items .rating {
+  margin-top: 5px;
+}
+
+.teacher-profile {
+  display: flex;
+  align-items: center;
+}
+
+.teacher-profile img {
+  height: 35px;
+  border-radius: 50px;
+}
+
+.teacher-profile span {
+  font-size: .7em;
+}
+
+.teacher-profile .teacher-data span{
+  display: flex;
+  line-height: 15px;
+  margin-left: 10px;
+}
+
+.rating .number-rating {
+  padding: 10px;
+}
+
+.class-items button {
+  width: 100%;
+  background-color: #1C3879;
+  font-size: 1.2em;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  color: #FFFFFF;
+}
+
+.class-items button:hover {
+  background-color: #3DA2FF;
+}
+/* end of Daftar Kelas */
