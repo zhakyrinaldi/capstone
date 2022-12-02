@@ -182,6 +182,11 @@ button {
    }
 
 /* About */
+
+  .about{
+    padding-top: 30px;
+  } 
+
    .card-client {
   background: #1C3879;
   width: 13rem;
@@ -416,6 +421,7 @@ button {
   justify-content: center;
   margin-top: 10px;
   min-height: fit-content;
+  padding-bottom: 50px;
   }
 
   #about-profile .card-client {
