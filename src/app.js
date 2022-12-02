@@ -21,7 +21,7 @@ getClass(API_URL);
 const showMovie = (data) => {
   movieListElement.innerHTML = "";
   data.forEach((kelas) => {
-    const { nama, rating } = kelas;
+    const { nama, rating, pemateri } = kelas;
     const movieElement = document.createElement("div");
     movieElement.setAttribute("class", "class-items");
     movieElement.innerHTML = `
@@ -30,13 +30,12 @@ const showMovie = (data) => {
                         <div class="teacher-profile">
                             <img src="" alt="">
                             <div class="teacher-data">
-                                <span class="bold">${}</span>
-                                <span>sasasasaa</span>
+                                <span class="bold">${pemateri.nama}</span>
                             </div>
                         </div>
                         <div class="rating">
-                            <span class="star-rating">*****</span>
-                            <span class="number-rating bold">${rating}</span>
+                        <span class="star-rating" style="font-size:200%;color:#1C3879;">&starf;</span>
+                        <span class="number-rating bold">${rating}</span>
                         </div>
                     </div>
                     <button>Learn</button>`;
