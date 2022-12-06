@@ -35,6 +35,10 @@ main p{
     font-weight: bold;
 }
 
+ul li {
+    font-size: 19px;
+}
+
 /* footer */
 footer {
     padding: 20px;
