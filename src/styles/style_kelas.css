@@ -39,7 +39,7 @@ main p{
     font-weight: bold;
 }
 
-ul li {
+ul li, ol li {
     font-size: 19px;
 }
 
