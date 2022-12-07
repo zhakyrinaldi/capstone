@@ -7,14 +7,14 @@ class NavBar extends HTMLElement {
       this.innerHTML = `
       <nav>
       <div class="wrapper">
-      <div class="logo"><a href="">1%</a></div>
+      <div class="logo"><a href="#about-profile">1%</a></div>
       <div class="menu">
           <ul>
-              <li href="#home"><a>Home</a></li>
-              <li href="#class"><a>Class</a></li>
-              <li href="#about"><a>About Us</a></li>
-              <li href="" class="btn-sign"><a>Sign In</a></li>
-              <li href="" class="btn-login"><a>Login</a></li>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#class">Class</a></li>
+              <li><a href="#about-profile">About Us</a></li>
+              <li class="btn-sign"><a href="">Sign In</a></li>
+              <li class="btn-login"><a href="">Login</a></li>
           </ul>
       </div>
   </div>
