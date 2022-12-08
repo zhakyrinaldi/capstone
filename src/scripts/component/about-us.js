@@ -6,7 +6,7 @@ class About_Us extends HTMLElement {
 render() {
     this.innerHTML = `
     <div>
-    <div class="about">
+    <div class="about" id="about">
         <div class="teks">
             <h2 class="teks-h2">Tentang Kami</h2>
             <p class="teks-p">Perkenalkan inilah anggota team kami dalam membangun website ini</p>
