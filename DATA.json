@@ -1,0 +1,88 @@
+{
+    "kelas": [
+        {
+            "nama": "Produktivitas Pribadi",
+            "deskripsi": "Dengan mengikuti dan memahami materi ini diharpkan peserta didik dapat mengevaluasi cara diri selama ini dalam mengelola produktivitas diri, mengidentifikasi & merancang manajemen waktu yang lebih baik, dan juga mempraktikkan langkah-langkah manajemen waktu agar menjadi lebih produktif dan berkembang dalam keseharian.",
+            "rating": 4.8,
+            "pemateri": [
+                {
+                    "nama": "Jonathan Novrillo",
+                    "imgLink": "",
+                    "deskripsi": "Jonathan Novrillo yang biasa dipanggil Rilo merupakan dosen dari Universitas Indonesia. Beliau merupakan lulusan dari S1 Psikologi UI dan juga S2 Psikologi UI."
+                }
+            ]
+        },
+        {
+            "nama": "Ethical Behavior and Adaptability",
+            "deskripsi": "Dengan mengikuti dan memahami materi ini diharpkan peserta didik dapat Mempraktikkan ethical behavior dalam kehidupan sehari-hari, Mengidentifikasi VUCA ERA, Mengidentifikasi manfaat dan tantangan serta implementasi adaptability.",
+            "rating": 4.7,
+            "pemateri": [
+                {
+                    "nama": "Natasha Putri",
+                    "imgLink": "",
+                    "deskripsi": "Natasha Putri yang biasa dipanggil putri merupakan seseorang yang berlatar belakang lulusan dari S1 Ilmu Komunikasi Universitas Indonesia dengan IPK 3,7."
+                }
+            ]
+        },
+        {
+            "nama": "Communication and Networking",
+            "deskripsi": "Dengan mengikuti dan memahami materi ini diharpkan peserta didik dapat Menerapkan cara berkomunikasi yang baik dan sesuai, Mempraktikkan cara melakukan dan membangun network/jejaring.",
+            "rating": 4.8,
+            "pemateri": [
+                {
+                    "nama": "Natasha Putri",
+                    "imgLink": "",
+                    "deskripsi": "Natasha Putri yang biasa dipanggil putri merupakan seseorang yang berlatar belakang lulusan dari S1 Ilmu Komunikasi Universitas Indonesia dengan IPK 3,7."
+                }
+            ]
+        },
+        {
+            "nama": "Presentasi Bisnis - Menyajikan dengan Percaya Diri",
+            "deskripsi": "Dengan mengikuti dan memahami materi ini diharpkan peserta didik dapat Mempraktikkan tahapan presentasi yang efektif, Menerapkan presentasi yang dilakukan secara optimal, Memahami perbedaan presentasi online dan offline.",
+            "rating": 4.8,
+            "pemateri": [
+                {
+                    "nama": "Rudy Kurniawan",
+                    "imgLink": "",
+                    "deskripsi": "Rudy Kurniawan yang biasa dipanggil Rudi merupakan seorang pebisnis muda asal Samarinda, Kalimantan Timur. beliau merupakan bos perusahaan Bunga Nusa Mahakam yang bergerak di bidang perkapalan."
+                }
+            ]
+        },
+        {
+            "nama": "Personal Branding",
+            "deskripsi": "Dengan mengikuti dan memahami materi ini diharpkan peserta didik dapat Menerapkan personal branding yang efektif, Mempraktikkan cara membuat resume yang atraktif, Mengimplementasikan personal branding melalui sosial media.",
+            "rating": 4.9,
+            "pemateri": [
+                {
+                    "nama": "Jerome Polin",
+                    "imgLink": "",
+                    "deskripsi": "Jerome Polin yang biasa dipanggil jerome merupakan seorang youtuber atau influencer terkneal di Indonesia. selain memiliki jumlah subscriber kurang lebih 10 juta, jerome juga memiliki kwalitas video yang menarik untuk ditonton."
+                }
+            ]
+        },
+        {
+            "nama": "Interview Preparation, How to Deal with Recruiter?",
+            "deskripsi": "Dengan mengikuti dan memahami materi ini diharpkan peserta didik dapat Mempersiapkan diri untuk interview kerja, Menghadapi interview kerja dengan optimal, Mengimplementasikan praktik STAR Technique, Menindaklanjuti hasil interview dengan benar dan bijak.",
+            "rating": 4.5,
+            "pemateri": [
+                {
+                    "nama": "Rudy Kurniawan",
+                    "imgLink": "",
+                    "deskripsi": "Rudy Kurniawan yang biasa dipanggil rudy merupakan seorang pebisnis muda asal samarinda kalimantan timur. beliau merupakan bos perusahaan bunga nusa mahakam yang bergerak dibidang perkapalan"
+                }
+            ]
+        },
+        {
+            "nama": "Produktivitas Pribadi",
+            "deskripsi": "Dengan mengikuti dan memahami materi ini diharpkan peserta didik dapat mengevaluasi cara diri selama ini dalam mengelola produktivitas diri, mengidentifikasi & merancang manajemen waktu yang lebih baik, dan juga mempraktikkan langkah-langkah manajemen waktu agar menjadi lebih produktif dan berkembang dalam keseharian.",
+            "rating": 4.8,
+            "pemateri": [
+                {
+                    "nama": "Jonathan Novrillo",
+                    "imgLink": "",
+                    "deskripsi": "Jonathan Novrillo yang biasa dipanggil Rilo merupakan dosen dari Universitas Indonesia. Beliau merupakan lulusan dari S1 Psikologi UI dan juga S2 Psikologi UI."
+                }
+            ]
+        }
+    ]
+}

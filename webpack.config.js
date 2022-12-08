@@ -14,7 +14,7 @@ const ImageminMozjpeg = require('imagemin-mozjpeg');
 
 module.exports = {
   entry: {
-    app: path.resolve(__dirname, 'src/app.js')
+    app: path.resolve(__dirname, 'src/index.js')
   },
   mode: 'production',
   output: {

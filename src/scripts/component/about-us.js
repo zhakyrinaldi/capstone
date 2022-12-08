@@ -15,7 +15,7 @@ render() {
     <div id="about-profile">
         <div id="zhaky" class="card-client">
             <div class="user-picture">
-                <img src="./public/image/zhaky-modified.png" alt="">
+                <img src="../public/image/zhaky-modified.png" alt="">
             </div>
             <p class="name-client"> M. Zhaky
                 <span>Universitas Mulawarman
