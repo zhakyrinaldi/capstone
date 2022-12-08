@@ -1,11 +1,14 @@
-import 'regenerator-runtime';
-import './scripts/component/nav-bar.js';
-import './scripts/component/about-us.js';
-import './styles/style.css';
-import './styles/style_kelas.css';
-import App from './scripts/views/app'
-import '../DATA.json'
-const API_URL = "https://api-satupersen.netlify.app/kelas.json";
+// import 'regenerator-runtime';
+// import './scripts/component/nav-bar.js';
+// import './scripts/component/about-us.js';
+// import './styles/style.css';
+// import './styles/style_kelas.css';
+// import App from './scripts/views/app'
+// import '../DATA.json'
+// const API_URL = "https://api-satupersen.netlify.app/kelas.json";
+// import ulasan from './scripts/component/ulasan.js';
+
+// ulasan();
 // https://api.themoviedb.org/3/discover/movie?primary_release_date.gte=2014-09-15&primary_release_date.lte=2014-10-22&api_key=c2e4bdedcd87c9c627403e4eb8fb843e
 //https://api-satupersen.netlify.app/kelas.json
 
