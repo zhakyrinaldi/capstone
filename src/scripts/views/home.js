@@ -1,9 +1,9 @@
-import { listClass } from "./templates/template_creator";
-import ClassSource from "../../data/class_source";
+import { listClass } from './templates/template_creator';
+import ClassSource from '../../data/class_source';
 
 const home = {
-    async render() {
-      return `
+  async render() {
+    return `
       <div id="maincontent">
     <section id="home">    
         <div class="deskripsi">
@@ -18,7 +18,7 @@ const home = {
         </div>
             
         </div>
-        <img src="./public/image/home.gif" alt="">
+        <img src="image/home.gif" alt="">
     </section>
 
     <div id="content">
@@ -32,16 +32,16 @@ const home = {
     <about-us></about-us>
     </div>
       `;
-    },
-   
-    async afterRender() {
-        const data = await ClassSource.home();
-        const dataContainer = document.querySelector('#class-list');
-        data.forEach((i) => {
-          dataContainer.innerHTML += listClass(i);
-        });
-        console.log(data);
-    },
-  };
-   
-  export default home;
+  },
+
+  async afterRender() {
+    const data = await ClassSource.home();
+    const dataContainer = document.querySelector('#class-list');
+    data.forEach((i) => {
+      dataContainer.innerHTML += listClass(i);
+    });
+    console.log(data);
+  },
+};
+
+export default home;

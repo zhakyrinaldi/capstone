@@ -1,9 +1,9 @@
 class About_Us extends HTMLElement {
-    connectedCallback() {
+  connectedCallback() {
     this.render();
-}
+  }
 
-render() {
+  render() {
     this.innerHTML = `
     <div>
     <div class="about" id="about">
@@ -15,7 +15,7 @@ render() {
     <div id="about-profile">
         <div id="zhaky" class="card-client">
             <div class="user-picture">
-                <img src="../public/image/zhaky-modified.png" alt="">
+                <img src="image/zhaky-modified.png" alt="">
             </div>
             <p class="name-client"> M. Zhaky
                 <span>Universitas Mulawarman
@@ -50,7 +50,7 @@ render() {
         </div>
         <div id="ariel" class="card-client">
             <div class="user-picture">
-                <img src="./public/image/ariel-modified.png" alt="">
+                <img src="image/ariel-modified.png" alt="">
             </div>
             <p class="name-client"> Ariel
                 <span>Universitas Mulawarman
@@ -80,7 +80,7 @@ render() {
         </div>
         <div id="aditya" class="card-client">
             <div class="user-picture">
-                <img src="./public/image/adit-modified.jpg" alt="">
+                <img src="image/adit-modified.jpg" alt="">
             </div>
             <p class="name-client"> Aditya
                 <span>Universitas Trilogi
@@ -103,7 +103,7 @@ render() {
         </div>
         <div id="darmawan" class="card-client">
             <div class="user-picture">
-                <img src="./public/image/darmawan-modified.jpg" alt="">
+                <img src="image/darmawan-modified.jpg" alt="">
             </div>
             <p class="name-client"> Darmawan
                 <span>Universitas Handayani
@@ -138,7 +138,7 @@ render() {
         </div>
     </div>
     </div>`;
-}
+  }
 }
 
 customElements.define('about-us', About_Us);
