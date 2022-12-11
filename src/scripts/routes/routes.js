@@ -1,5 +1,5 @@
 import Detail from '../views/detail_kelas';
-import form from '../views/form';
+
 import home from '../views/home';
 import kelas_1 from '../views/kelas_1';
 import kelas_2 from '../views/kelas_2';
