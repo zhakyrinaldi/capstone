@@ -1,10 +1,9 @@
-
 const kelas_2 = {
-    async render() {
-      return `
+  async render() {
+    return `
       <main>
       <h1 class="class_name">Produktivitas Pribadi</h1><br>
-      <br><img src="../../public/class/produktivitas 1.jpg" alt=""><br>
+      <br><img src="class/produktivitas 1.jpg" alt=""><br>
   
       <br><h2 class="sub_class">
           Apa itu Produktivitas Pribadi atau yang biasa disebut Personal Productivity?
@@ -82,11 +81,11 @@ const kelas_2 = {
       <br><br><p class="motivasi"><i>"Time management for more personal productivity"</i></p>
       </main>
       `;
-    },
-   
-    async afterRender() {
-      // Fungsi ini akan dipanggil setelah render()
-    },
-  };
-   
-  export default kelas_2;
+  },
+
+  async afterRender() {
+    // Fungsi ini akan dipanggil setelah render()
+  },
+};
+
+export default kelas_2;
