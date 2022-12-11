@@ -7,7 +7,7 @@ class NavBar extends HTMLElement {
     this.innerHTML = `
       <nav>
       <div class="wrapper">
-      <div class="logo"><a href="./form.html">1%</a></></div>
+      <div class="logo"><a href=>1%</a></></div>
       <div class="menu">
           <ul>
               <li><button><a href="#/home">Home</a></button></li>
