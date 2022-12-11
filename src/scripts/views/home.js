@@ -9,12 +9,12 @@ const home = {
         <div class="deskripsi">
             <h2 class="desk">LifeLong <br>      <span>Learning</span></h2>
             <p>Berkomitmen untuk memberikan pendidikan yang luar biasa kepada peserta didik dari berbagai latar belakang untuk masa depan yang lebih baik.</p>
-            <div id="learn-more"><button href="#content" class="learn-more">
+            <div id="learn-more"><a href="#content"><button href="#content" class="learn-more">
                 <span class="circle" aria-hidden="true">
                 <span class="icon arrow"></span>
                 </span>
                 <span class="button-text">Learn More</span>
-            </button>
+            </button></a>
         </div>
             
         </div>
