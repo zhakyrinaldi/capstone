@@ -115,7 +115,9 @@ button.learn-more {
   width: 12rem;
   height: auto;
 }
-
+.logo a {
+  color: #fff;
+}
 button.learn-more .circle {
   transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
   position: relative;
